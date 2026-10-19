@@ -16,10 +16,10 @@ The methodology used in this study is organized around the six steps of the CRIS
 3. UjamaaDDDS7255-8-3.Modeling_Evaluation_Deployment.ipynb 
 
 ## Repository Structure
-The repository structure is as follows:
--data/	 # Raw dataset
--output/ # model outputs, evaluation metrics, and visualizations
-All modular jupyter notebooks are in the main folder
+The repository structure is as follows:  
+-data/	 # Raw dataset  
+-output/ # model outputs, evaluation metrics, and visualizations  
+All modular jupyter notebooks are in the main folder  
 
 ## How to Run the Project
 1. Open Jupyter Notebook.
