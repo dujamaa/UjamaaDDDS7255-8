@@ -29,16 +29,16 @@ All modular jupyter notebooks are in the main folder
 
 ## Dependencies 
 This project uses Python version 3.12.7 and the following Python packages should be installed using pip.
-numpy==1.26.4
-pandas==1.5.3
-matplotlib==3.9.2
-seaborn==0.13.2
-sklearn==1.5.2
-statsmodels==0.14.4
-pmdarima==2.0.4
-pygam==0.9.1
-scipy==1.11.4
-dieboldmariano==1.1.0
+numpy==1.26.4  
+pandas==1.5.3  
+matplotlib==3.9.2  
+seaborn==0.13.2  
+sklearn==1.5.2  
+statsmodels==0.14.4  
+pmdarima==2.0.4  
+pygam==0.9.1  
+scipy==1.11.4  
+dieboldmariano==1.1.0  
 
 ## Results and Insights  
 This study has compared and evaluated the accuracy of SARIMAX and GAM models at forecasting PIC deaths and compared and evaluated the accuracy of GAM models using Direct and Recursive multi-step forecasting strategies to forecast PIC deaths. The key insights and findings from this study were: (a) the SARIMAX model slightly outperformed the GAM model at one-week ahead forecasting of PIC deaths, however the difference in performance was not statistically significant; and (b) the GAM model using the Direct 4-week ahead forecasting strategy performed better than the GAM model using the Recursive 4-week ahead forecasting strategy, however the difference in performance was not statistically significant. Future areas of research include comparing the multi-step performance of GAM models and SARIMAX models and evaluating the multi-step forecasting performance of GAM models using different strategies at longer and shorter forecasting horizons. These finding can help inform Data Scientists working in the fields of healthcare and Public Health to improve modeling of deaths related to Pneumonia, Influenza, and COVID-19.
